@@ -31,14 +31,15 @@ export default createGlobalStyle`
 
   html {
     font-size: 62.5%;
+    color: #fff;
   }
 
   body {
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
     line-height: 1;
     font-size: 1.6rem;
-    color: #000;
-    background-color: #fff;
+    color: #fff;
+    background-color: #303030;
     -webkit-text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -90,5 +91,10 @@ export default createGlobalStyle`
 
   p {
     margin-bottom: 2rem;
+  }
+
+  .gallery-title {
+    font-size: 20px;
+    padding: 4rem 0 2rem 4rem;
   }
 `;

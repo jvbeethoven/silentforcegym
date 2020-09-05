@@ -1,12 +1,12 @@
 const path = require('path');
 
 module.exports = {
-  siteTitle: `Gatsby Universal`,
-  siteTitleShort: `GatsbyU`,
-  siteDescription: `An opinionated starter for Gatsby.`,
-  siteUrl: `https://gu.fabianschultz.com`,
-  themeColor: `#000`,
-  backgroundColor: `#fff`,
+  siteTitle: `Silent Force Gym`,
+  siteTitleShort: `Sileint Force`,
+  siteDescription: `Kick- en thaiboks club op Linkeroever in Antwerpen.`,
+  siteUrl: `https://silentforcegym.be`,
+  themeColor: `#fff`,
+  backgroundColor: `#303030`,
   pathPrefix: null,
   logo: path.resolve(__dirname, 'src/images/icon.png'),
   social: {

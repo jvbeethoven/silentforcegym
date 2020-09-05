@@ -2,18 +2,18 @@
   "title": "Home",
   "content": "intro.md",
   "gallery": [{
-    "title": "React Context",
-    "copy": "For global styles.",
+    "title": "El Hamzaoui Hassan",
+    "copy": "Wereldkampioen",
     "image": "../images/gallery/react-context.jpg"
   },
   {
-    "title": "Page Transitions",
-    "copy": "Component-based for easy usage.",
+    "title": "Talal Ibrahim ",
+    "copy": "Fysieke en technische trainer)",
     "image": "../images/gallery/page-transitions.jpg"
   },
   {
-    "title": "Intersection Observer",
-    "copy": "Including a polyfill for Safari.",
+    "title": "Laghmouch Abdesammad",
+    "copy": "Krachttrainer",
     "image": "../images/gallery/intersection-observer.jpg"
   }]
 }
