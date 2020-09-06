@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
   siteTitle: `Silent Force Gym`,
-  siteTitleShort: `Sileint Force`,
+  siteTitleShort: `Silent Force`,
   siteDescription: `Kick- en thaiboks club op Linkeroever in Antwerpen.`,
   siteUrl: `https://silentforcegym.be`,
   themeColor: `#fff`,

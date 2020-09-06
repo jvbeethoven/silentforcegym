@@ -4,16 +4,16 @@
   "gallery": [{
     "title": "El Hamzaoui Hassan",
     "copy": "Wereldkampioen",
-    "image": "../images/gallery/react-context.jpg"
+    "image": "../images/gallery/hassan.png"
   },
   {
     "title": "Talal Ibrahim ",
     "copy": "Fysieke en technische trainer)",
-    "image": "../images/gallery/page-transitions.jpg"
+    "image": "../images/gallery/ibrahim.png"
   },
   {
     "title": "Laghmouch Abdesammad",
     "copy": "Krachttrainer",
-    "image": "../images/gallery/intersection-observer.jpg"
+    "image": "../images/gallery/abdessamad.png"
   }]
 }

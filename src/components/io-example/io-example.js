@@ -1,7 +1,6 @@
 import React from 'react';
 import IO from 'components/io';
-import Title from 'components/title';
-import { Container } from './io-example.css';
+import { Container, UrenSubtitle, Title } from './io-example.css';
 
 // <IO> uses a render prop to pass down `isVisible` and `hasBeenVisible`.
 // In this example, we only care about `isVisible` and reset the styles
@@ -10,16 +9,20 @@ import { Container } from './io-example.css';
 const IOExample = () => (
   <IO rootMargin="-50px">
     {({ isVisible }) => (
-      <Container isVisible={isVisible}>
-        <Title tag="span">Trainingsuren</Title>
-        <h3>Kinderen (6-12 jaar)</h3>
-        <p>Maaandag: 18u30-19u30</p>
-        <p>Donderdag: 17u30-18u30</p>
-        <p>Zaterdag: 16u-17u</p>
-        <h3>Volwassenen (13-60 jaar)</h3>
-        <p>Maaandag: 19u30-20u30</p>
-        <p>Donderdag: 18u30-20u00</p>
-        <p>Zaterdag: 17u30-19u</p>
+      <Container isVisible={isVisible} className="uren">
+        <Title tag="span" >Trainingsuren</Title>
+        <div className="uren-container">
+          <UrenSubtitle>Kinderen (6-12 jaar)</UrenSubtitle>
+          <p>Maandag: 18u30-19u30</p>
+          <p>Donderdag: 17u30-18u30</p>
+          <p>Zaterdag: 16u-17u</p>
+        </div>
+        <div className="uren-container">
+          <UrenSubtitle>Volwassenen (13-60 jaar)</UrenSubtitle>
+          <p>Maandag: 19u30-20u30</p>
+          <p>Donderdag: 18u30-20u00</p>
+          <p>Zaterdag: 17u30-19u</p>
+        </div>
       </Container>
     )}
   </IO>

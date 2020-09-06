@@ -27,8 +27,24 @@ const Index = ({ data }) => (
     </Box>
     <h2 className="gallery-title">Trainers</h2>
     <Gallery items={data.homeJson.gallery} />
-    <div style={{ height: '50vh' }} />
+    <div>
+      <Title as="h2" size="large">Prijslijst</Title>
+    </div>
     <IOExample />
+    <footer>
+      <div>
+        <h2>Adresgegevens</h2>
+        <p>Buurtsport IGLO</p>
+        <p>Louis Paul Boonstraat 41</p>
+        <p>2050 Antwerpen (Linkeroever)</p>
+      </div>
+      <div>
+        <h2>Contact</h2>
+        <p>silentforcegym@hotmail.com</p>
+        <p>GSM:+32485/81.57.61</p>
+        <p>+32486/88.29.51</p>
+      </div>
+    </footer>
   </Layout>
 );
 
