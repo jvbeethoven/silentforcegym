@@ -1,4 +1,97 @@
 {
-  "title": "Contact",
-  "content": "content.md"
+  "title": "Foto's",
+  "content": "content.md",
+  "images": [{
+    "image": "../images/general/1.jpeg"
+  },
+  {
+    "image": "../images/general/2.jpeg"
+  },
+  {
+    "image": "../images/general/3.jpeg"
+  },
+  {
+    "image": "../images/general/4.jpeg"
+  },
+  {
+    "image": "../images/general/5.jpeg"
+  },
+  {
+    "image": "../images/general/6.jpeg"
+  },
+  {
+    "image": "../images/general/7.jpeg"
+  },
+  {
+    "image": "../images/general/8.jpeg"
+  },
+  {
+    "image": "../images/general/9.jpeg"
+  },
+  {
+    "image": "../images/general/10.jpeg"
+  },
+  {
+    "image": "../images/general/11.jpeg"
+  },
+  {
+    "image": "../images/general/112.jpeg"
+  },
+  {
+    "image": "../images/general/13.jpeg"
+  },
+  {
+    "image": "../images/general/14.jpeg"
+  },
+  {
+    "image": "../images/general/15.jpeg"
+  },
+  {
+    "image": "../images/general/16.jpeg"
+  },
+  {
+    "image": "../images/general/17.jpeg"
+  },
+  {
+    "image": "../images/general/18.jpeg"
+  },
+  {
+    "image": "../images/general/19.jpeg"
+  },
+  {
+    "image": "../images/general/20.jpeg"
+  },
+  {
+    "image": "../images/general/21.jpeg"
+  },
+  {
+    "image": "../images/general/22.jpeg"
+  },
+  {
+    "image": "../images/general/23.jpeg"
+  },
+  {
+    "image": "../images/general/24.jpeg"
+  },
+  {
+    "image": "../images/general/25.jpeg"
+  },
+  {
+    "image": "../images/general/26.jpeg"
+  },
+  {
+    "image": "../images/general/27.jpeg"
+  },
+  {
+    "image": "../images/general/28.jpeg"
+  },
+  {
+    "image": "../images/general/29.jpeg"
+  },
+  {
+    "image": "../images/general/30.jpeg"
+  },
+  {
+    "image": "../images/general/31.jpeg"
+  }]
 }

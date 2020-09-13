@@ -97,4 +97,69 @@ export default createGlobalStyle`
     font-size: 20px;
     padding: 4rem 0 2rem 4rem;
   }
+
+  footer {
+    display: grid;
+    max-width: 100vw;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    padding: 2rem;
+    margin: 2rem;
+    align-self: center;
+  }
+
+  h2 {
+
+    margin-bottom: 2rem;
+  }
+
+  h3 {
+    margin-bottom: 2rem;
+    font-weight: 900;
+  }
+
+  p {
+    max-width: 70rem;
+    line-height: 2.4rem;
+  }
+
+  .explanation {
+    margin: 2rem 0 0 2rem;
+    padding: 2rem 0 0 2rem;
+  }
+
+  table {
+    max-width: 120rem;
+    min-width: 40vw;
+    text-align: center;
+    margin-bottom: 4rem;
+    border: 2px solid white;
+  }
+  table td, table th {
+    padding: 1rem .5rem;
+    border: 2px solid white;
+  }
+  table tbody td {
+    font-size: 13px;
+  }
+  table thead {
+    }
+  table thead th {
+    font-weight: bold;
+    text-align: center;
+  }
+  table tfoot {
+    font-weight: bold;
+  }
+
+  .prijslijst-div {
+    padding: 2rem;
+    margin: 2rem;
+  }
+
+  @media (max-width: 40em) {
+    footer {
+      display: block;
+    } 
+  }
 `;

@@ -4,6 +4,7 @@ import { graphql } from 'gatsby';
 import Layout from 'components/layout';
 import Box from 'components/box';
 import Head from 'components/head';
+import Gallery from 'components/gallery';
 
 const About = ({ data }) => (
   <Layout>
@@ -15,6 +16,7 @@ const About = ({ data }) => (
         }}
       />
     </Box>
+    <Gallery items={data.aboutJson.images} />
   </Layout>
 );
 
@@ -31,6 +33,15 @@ export const query = graphql`
       content {
         childMarkdownRemark {
           html
+        }
+      }
+      images {
+        image {
+          childImageSharp {
+            fluid(maxHeight: 300, quality: 90) {
+              ...GatsbyImageSharpFluid_withWebp
+            }
+          }
         }
       }
     }
