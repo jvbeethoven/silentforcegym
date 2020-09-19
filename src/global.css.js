@@ -124,8 +124,8 @@ export default createGlobalStyle`
   }
 
   .explanation {
-    margin: 2rem 0 0 2rem;
-    padding: 2rem 0 0 2rem;
+    margin: 2rem 2rem 0 2rem;
+    padding: 2rem 2rem 0 2rem;
   }
 
   table {
@@ -157,9 +157,33 @@ export default createGlobalStyle`
     margin: 2rem;
   }
 
+  .trainingsuren {
+    display: flex;
+    margin: 2rem;
+    padding: 2rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 60vw;
+
+    &-subcontainer {
+      padding: 0 2rem 0  2rem;
+    }
+
+    &-title {
+      font-size: 2.6rem;
+      font-weight: 400;
+    }
+  }
+
   @media (max-width: 40em) {
     footer {
       display: block;
+    } 
+  }
+
+  @media (max-width: 1140px) {
+    .trainingsuren-title {
+      width: 80vw;
     } 
   }
 `;

@@ -4,7 +4,7 @@ import Layout from 'components/layout';
 import Box from 'components/box';
 import Title from 'components/title';
 import Gallery from 'components/gallery';
-import IOExample from 'components/io-example';
+// import IOExample from 'components/io-example';
 // import Modal from 'containers/modal';
 import { graphql } from 'gatsby';
 
@@ -50,7 +50,7 @@ const Index = ({ data }) => (
         <tr>
           <td>Zonder verzekering</td>
           <td>Zonder verzekering</td>
-          <td>Met verzekering</td>
+          <td>Zonder verzekering</td>
         </tr>
       </table>
       <Title as="h3" size="medium">Volwassen</Title>
@@ -68,7 +68,7 @@ const Index = ({ data }) => (
         <tr>
           <td>Zonder verzekering</td>
           <td>Zonder verzekering</td>
-          <td>Met verzekering</td>
+          <td>Zonder verzekering</td>
         </tr>
       </table>
       <p>Een 10-beurtenkaart is 40 euro exclusief verzekering.</p>
@@ -77,7 +77,22 @@ const Index = ({ data }) => (
         <b>Een basis pakket materiaal bestaat uit een trainingszak, bokshandschoenen, beenbescherming, bandage, mondbescherming en kruisbescherming. Dit pakket kost minstens 85 euro. Er zijn verschillende kwaliteiten van materiaal dus de prijs kan varieren.</b>
       </p>
     </div>
-    <IOExample />
+    {/* <IOExample /> */}
+    <div className="trainingsuren">
+      <h2 className="trainingsuren-title">Trainingsuren</h2>
+      <div className="trainingsuren-subcontainer">
+        <Title as="h3" size="medium">Kinderen (6-12 jaar)</Title>
+        <p>Maandag: 18u30-19u30</p>
+        <p>Donderdag: 17u30-18u30</p>
+        <p>Zaterdag: 16u-17u</p>
+      </div>
+      <div className="trainingsuren-subcontainer">
+        <Title as="h3" size="medium">Volwassenen (13-60 jaar)</Title>
+        <p>Maandag: 19u30-20u30</p>
+        <p>Donderdag: 18u30-20u00</p>
+        <p>Zaterdag: 17u30-19u</p>
+      </div>
+    </div>
     <footer>
       <div>
       <Title as="h3" size="large">Adresgegevens</Title> 
@@ -114,13 +129,6 @@ export const query = graphql`
       gallery {
         title
         copy
-        image {
-          childImageSharp {
-            fluid(maxHeight: 350, quality: 90) {
-              ...GatsbyImageSharpFluid_withWebp
-            }
-          }
-        }
       }
     }
   }

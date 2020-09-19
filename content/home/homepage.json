@@ -3,17 +3,37 @@
   "content": "intro.md",
   "gallery": [{
     "title": "El Hamzaoui Hassan",
-    "copy": "Wereldkampioen",
-    "image": "../images/gallery/trainer.jpg"
+    "copy": "Head Coach en Wereldkampioen",
+    "image": "../images/gallery/empty.png"
   },
   {
     "title": "Talal Ibrahim ",
-    "copy": "Fysieke en technische trainer)",
-    "image": "../images/gallery/ibrahim.png"
+    "copy": "Technische trainer)",
+    "image": "../images/gallery/empty.png"
   },
   {
     "title": "Laghmouch Abdesammad",
-    "copy": "Krachttrainer",
-    "image": "../images/gallery/abdessamad.png"
+    "copy": "Conditie en krachttrainer",
+    "image": "../images/gallery/empty.png"
+  },
+  {
+    "title": "Frank Maris",
+    "copy": "Hulptrainer",
+    "image": "../images/gallery/empty.png"
+  },
+  {
+    "title": "Mohammed Limi",
+    "copy": "Huulptrainer",
+    "image": "../images/gallery/empty.png"
+  },
+  {
+    "title": "Majid Amaach",
+    "copy": "Hulptrainer",
+    "image": "../images/gallery/empty.png"
+  },
+  {
+    "title": "Fikri Benaissa ",
+    "copy": "Hulptrainer",
+    "image": "../images/gallery/empty.png"
   }]
 }
