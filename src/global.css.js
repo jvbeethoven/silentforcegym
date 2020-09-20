@@ -176,9 +176,30 @@ export default createGlobalStyle`
   }
 
   @media (max-width: 40em) {
+
+    .gQVcoS{
+      padding: 2rem;
+      flex-wrap: wrap;
+      min-height: 5.5rem;
+    }
+
+    .explanation, .sc-bdVaJa, .gallery-title, .prijslijst-div {
+      margin: 1rem;
+      padding: 1rem;
+    }
+
     footer {
       display: block;
+      margin: 1rem;
+      padding: 1rem;
     } 
+
+    .trainingsuren {
+      max-width: 90vw;
+      margin: 1rem;
+      padding: 1rem;
+
+    }
   }
 
   @media (max-width: 1140px) {
